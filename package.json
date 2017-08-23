@@ -1,0 +1,19 @@
+{
+  "name": "open-otp-server",
+  "version": "0.0.1",
+  "description": "A fast, secure, open-source NodeJS server for validating OTPs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triestpa/Open-OTP-Server.git"
+  },
+  "author": "patrick.triest@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/triestpa/Open-OTP-Server/issues"
+  },
+  "homepage": "https://github.com/triestpa/Open-OTP-Server#readme"
+}
