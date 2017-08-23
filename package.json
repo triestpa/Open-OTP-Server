@@ -4,6 +4,7 @@
   "description": "A fast, secure, open-source NodeJS server for validating OTPs.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/triestpa/Open-OTP-Server/issues"
   },
-  "homepage": "https://github.com/triestpa/Open-OTP-Server#readme"
+  "homepage": "https://github.com/triestpa/Open-OTP-Server#readme",
+  "dependencies": {
+    "joi": "10.6.0",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-joi-validate": "0.0.3",
+    "koa-router": "7.2.1"
+  }
 }
